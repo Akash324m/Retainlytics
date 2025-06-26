@@ -83,10 +83,13 @@ Prepare your data:
 
     retail-cohort-analysis/
     ├── Data/
-    │   └── online_retail_final.csv       # Sample transaction data
-    ├── app.py                            # Main application file
-    ├── requirements.txt                  # Python dependencies
-    └── README.md                         # This documentation file
+    │   └── online_retail_final.csv               # Sample transaction data
+    ├── Phase-1  Data Cleaning and Validating/    
+    │   └── Data_Cleaning_n_ Heath_Check          #Data wrangling and Data Quality DashBoard
+    ├── Phase-2 Cohort Analysis/
+    │   └── cohort_Analysis                       # Cohort Analysis and Results DashBoard
+    ├── requirements.txt                          # Python dependencies
+    └── README.md                                 # This documentation file
 
 
 **Dependencies**
@@ -131,7 +134,14 @@ Prepare your data:
 
 **Screenshots**
 
-(Include screenshots of your dashboard here if available)
+![Data-Quality-DashBoard](https://github.com/user-attachments/assets/f46929e0-b6d8-4b79-8000-f6537e984ccc)
+
+![CustomerAcquisitionOverTime](https://github.com/user-attachments/assets/d2491cb9-51fc-487b-821f-9532ba39ba65)
+
+![CustomerRetentionAnalysis](https://github.com/user-attachments/assets/bf604fa3-88a1-4d34-92ca-a02ab05d5187)
+
+![RevenueAnalysis](https://github.com/user-attachments/assets/af1a9837-a08f-4fff-a002-20952696783e)
+
 
 **Future Enhancements**
 
