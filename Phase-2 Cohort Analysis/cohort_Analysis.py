@@ -10,7 +10,7 @@ from datetime import datetime
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Read CSV file
-csv_file_path = r"C:\Users\aakas\Downloads\projects\Business_analytical project\Project-4\Data\online_retail_final.csv"
+csv_file_path = "path"
 df = pd.read_csv(csv_file_path)
 
 # Convert InvoiceDate to datetime
