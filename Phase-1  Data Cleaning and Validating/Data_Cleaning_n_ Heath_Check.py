@@ -10,7 +10,7 @@ from datetime import datetime
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Read CSV file (changed from Excel to CSV based on your file path)
-csv_file_path = r"C:\Users\aakas\Downloads\projects\Business_analytical project\Project-4\Data\online_retail_final.csv"  # Change this to your file path
+csv_file_path = "path"  # Change this to your file path
 df = pd.read_csv(csv_file_path)
 
 # Data quality checks function for retail data
